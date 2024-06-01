@@ -127,14 +127,14 @@ class BinaryTree {
 
 public class LibraryManagement {
     private static Scanner input = new Scanner(System.in);
-    private static final String LIBRARIAN_ID = "dsa@1";
-    private static final String LIBRARIAN_PASSWORD = "abc123";
+    private static final String LIBRARIAN_ID = "abd360";
+    private static final String LIBRARIAN_PASSWORD = "abd17";
     private static SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     private static Calendar cal = Calendar.getInstance();
     private static Student[] students = {
-            new Student("Rajvi", 1741078, "B.Tech-ICT"),
-            new Student("Krushna", 1741086, "B.Tech-ICT"),
-            new Student("Kalagee", 1741052, "B.Tech-ICT")
+            new Student("Rahul", 1741078, "MCA-GIETU"),
+            new Student("Saikiran", 1741086, "B.Tech-Centurion"),
+            new Student("Vivek", 1741052, "MCA-KIIT")
     };
     private static BinaryTree tree = new BinaryTree();
     private static HashMap<String, Integer> bookMapping = new HashMap<>();
