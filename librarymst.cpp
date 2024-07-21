@@ -1,3 +1,6 @@
+// Source code in cpp For catalog search which is efficient in realworld application and also used by tech giant like Google , Meta, Uber for their search
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
